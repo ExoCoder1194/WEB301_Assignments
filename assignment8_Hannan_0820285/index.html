@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>Hannan's Travel Blog</title>
+</head>
+<body>
+
+    <header class="bg-primary text-white text-center py-4">
+        <h1 class="display-4">Hannan's Travel Blog</h1>
+    </header>
+
+    <div class="container mt-4">
+
+        
+        <div class="row">
+            <!-- Column 1 -->
+            <div class="col-md-4 bg-info p-4">
+                <h2>Destination</h2>
+                <p>Dubai, UAE</p>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-md-4 bg-success p-4">
+                <h2>Facts</h2>
+                <p>Dubai is known for its stunning skyline, luxury shopping, and modern architecture.</p>
+            </div>
+
+            <!-- Column 3 - Selectable on click using Bootstrap Collapse -->
+            <div class="col-md-4 bg-warning p-4">
+                <h2>
+                    <a href="#placesToVisit" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="placesToVisit">
+                        Places to Visit
+                    </a>
+                </h2>
+                <div class="collapse" id="placesToVisit">
+                    <ul>
+                        <li>Burj Khalifa: The tallest building in the world with an incredible observation deck.</li>
+                        <li>The Dubai Mall: One of the largest shopping malls globally, offering a mix of shopping, dining, and entertainment.</li>
+                        <li>Palm Jumeirah: A man-made archipelago known for luxury resorts and stunning beaches.</li>
+                        <li>Dubai Marina: A canal city with skyscrapers, vibrant nightlife, and waterfront dining.</li>
+                        <li>The Dubai Fountain: A mesmerizing water and light show at the base of the Burj Khalifa.</li>
+                        <li>Dubai Museum: Located in Al Fahidi Fort, providing insights into the city's history and cultural heritage.</li>
+                        <li>Jumeirah Beach: A popular spot for relaxation and water sports with white sands and clear waters.</li>
+                        <li>Mall of the Emirates: Famous for Ski Dubai, an indoor ski resort, and a wide range of retail and dining options.</li>
+                        <li>Dubai Opera: A stunning architectural masterpiece in Downtown Dubai offering world-class performances.</li>
+                        <li>Dubai Creek: Explore the historic side of Dubai by taking an abra ride along Dubai Creek.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="row mt-4">
+            <!-- Column 1 -->
+            <div class="col-md-6 bg-danger p-4">
+                <h2>Popular Attractions</h2>
+                <p>Explore iconic landmarks such as the Burj Khalifa and the Palm Jumeirah.</p>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-md-6 bg-secondary p-4">
+                <h2>Culture and Cuisine</h2>
+                <p>Dubai's cuisine blends Arabic and Middle Eastern flavors, featuring kebabs, shawarma, and mezze. Hospitality is key, with a warm embrace of traditional dress and Islamic customs. The city harmoniously balances its rich heritage with modernity, seen in iconic structures like the Burj Khalifa. Cultural festivals celebrate diverse traditions, and English is widely spoken, enhancing accessibility to Dubai's vibrant culture.</p>
+            </div>
+        </div>
+
+    </div>
+    
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
