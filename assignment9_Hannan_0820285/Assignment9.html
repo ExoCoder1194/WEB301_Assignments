@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Netflix</title>
+</head>
+<body data-spy="scroll" data-target="#navbar">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" id="Netflix" href="#">Netflix</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Movies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Series</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Genre
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Comedy</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+     <!-- Header Section -->
+     <header class="bg-danger text-white text-center py-5">
+        <h1>Hannan Salis</h1>
+    </header>
+
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About</h2>
+                <p> Netflix, a media-streaming and video-rental company, was founded in 1997 by American entrepreneurs Reed Hastings and Marc Randolph1. The company initially offered movie rentals over the internet, which eventually led to the launch of Netflix.com in 1998, focusing on DVD rentals and sales. The following year, the company added a subscription service, allowing customers unlimited DVD rentals at a monthly rate. Netflix's headquarters are located in Los Gatos, California1.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>About Section 2</h2>
+                <p>Fast forward to today, Netflix’s core mission, strategy, and vision are centered on improving its members’ experience by expanding the streaming content with a focus on a programming mix of content that delights members and attracts new ones.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <section id="Content" class="container my-5">
+        <div class="row">
+            <!-- Bootstrap Card Example -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/image1.jpeg" class="card-img-top" alt="Content 1">
+                    <div class="card-body">
+                        <h5 class="card-title">One Piece</h5>
+                        <p class="card-text">One Piece is a fantasy adventure television series developed by Matt Owens and Steven Maeda for Netflix. The series is a live action adaptation of the manga series of the same name by Eiichiro Oda, who served as a major creative consultant on the show.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more cards as needed -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/image2.jpeg" class="card-img-top" alt="Content 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Wednesday</h5>
+                        <p class="card-text">Wednesday is an American coming-of-age supernatural comedy horror television series based on the character Wednesday Addams by Charles Addams. Created by Alfred Gough and Miles Millar.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="images/image3.jpeg" class="card-img-top" alt="Content 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Stranger Things</h5>
+                        <p class="card-text">Stranger Things is an American science fiction horror drama television series created by the Duffer Brothers for Netflix. Produced by Monkey Massacre Productions and 21 Laps Entertainment, the first season was released on Netflix on July 15, 2016.</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Hannan Salis</p>
+    </footer>
+
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
